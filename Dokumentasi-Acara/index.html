@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>An-Nawawiy</title>
+
+    <link rel="shortcut icon" href="../image/pondok.png" type="image/x-icon" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- font montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- jqueary -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- W3 CSS -->
+    <!-- <link rel="stylesheet" href="../master/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+  </head>
+</html>
+<body>
+    <!-- NAVBAR START -->
+    <div class="container">
+      <div class="">
+        <div class="page-navbar">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">     
+          <a class="navbar-brand fw-bold fs-6 ms-5" ><img src="../image/pondok.png" width="50" />An-Nawawiy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav nav-pills mx-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link mx-1" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <!-- dropdown 1 start -->
+              <li class="nav-item dropdown mx-1">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profile </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="../Sejarah-Pondok/index.html">Sejarah</a></li>
+                  <li><a class="dropdown-item" href="#">Visi dan Misi</a></li>
+                  <li><a class="dropdown-item" href="Struktur-Organisasi/index.html">Struktur Oraganisasi</a></li>
+                  <li><a class="dropdown-item" href="#">Pengasuh</a></li>
+                </ul>
+              </li>
+              <!-- dropdown 1 end -->
+              <!-- dropdown 2 start -->
+              <li class="nav-item dropdown mx-1">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Lembaga </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">TPQ</a></li>
+                  <li><a class="dropdown-item" href="#">SMP</a></li>
+                  <li><a class="dropdown-item" href="#">SMA</a></li>
+                  <li><a class="dropdown-item" href="#">PPTQ</a></li>
+                </ul>
+              </li>
+              <!-- dropdown 2 end -->
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="#">Kajian</a>
+              </li>
+
+              <li class="nav-item dropdown mx-1">
+                <a class="nav-link active dropdown-toggle" style="background-color: green
+                ;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Santri </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Dokumentasi Acara</a></li>
+                  <li><a class="dropdown-item" href="#">Diskusi Santri</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link mx-1" href="#">Pendaftaran</a>
+              </li>
+            </ul>
+            <div class="logo-navbar text-center me-5">
+                <a class="nav-link logo-navbar-1 fa-brands fa-youtube fs-5 mx-2" href="https://www.youtube.com/channel/UClKJSEhvXaMFrqHq1qPJacw" target="_blank"> </a>
+    
+                <a class="nav-link logo-navbar-2 fa-brands fa-instagram fs-5 mx-2" href="https://www.instagram.com/pptq.annawawiy.mojokerto" target="_blank"> </a>
+    
+                <a class="nav-link logo-navbar-3 fa-brands fa-facebook fs-5 mx-2" href="https://www.facebook.com/profile.php?id=100090290989902&mibextid=ZbWKwL" target="_blank"> </a>
+    
+                <a class="nav-link logo-navbar-4 fa-brands fa-twitter fs-5 mx-2" target="_blank" href="#"> </a>
+              </div>
+          </div>
+        
+      </nav>
+    </div>
+    </div>
+    
+   
+      
+      <!-- NAVBAR END -->
+      
+      <div class="page-isi">
+        <div class="container container-satu mb-5">
+            <h1 class="text-judul">
+                DOKUMENTASI ACARA
+            </h1>
+        </div>
+
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides">
+              <div class="numbertext">1 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=11VozfYI7R6nsEgKhQoUPQJCD7JvmzsuW" style="width: 100%" alt="Khaidari Ali" />
+            </div>
+    
+            <div class="mySlides">
+              <div class="numbertext">2 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=144gpt6myBIDOkJRyJFubbXDZ2RrIyiPu" style="width: 100%" />
+            </div>
+    
+            <div class="mySlides">
+              <div class="numbertext">3 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=14NT73kENIyF5fI-bhT0LjKstrU7g4FcC" style="width: 100%" />
+            </div>
+    
+            <div class="mySlides">
+              <div class="numbertext">4 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=14g_oB7CMB45ccvo4w4oqz5htfHOGxMNZ" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">5 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=15B2T8yo7e7ut1KEK85H4p0mi9P3dkzon" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">6 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=12kPiImRRgO3SBTiZ2Y0Gq258Z-R_w-HF" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">7 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=15KdReJwckJ8Ip2ld8iSW8r0e6OO1tgfd" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">8 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=15Z0xNzxs4DRac8sfGgh1g5FYM8j0Q6UJ" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">9 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=14qIU3_hx5MVk9ccwqjAaC_UurjSNRlPP" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">10 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=14Yx3HPUIyBZjos6tcC2IiHA1JCaq__fp" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">11 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=14P6piT6cnxOm-NrPaDhGZxDBqly8DrW5" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">12 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=13WXijjLoBPRsXYxTpMRhSMbMoSCcwlFU" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">13 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=13whzGdDwCdj8BmGeL-n1mpnc_fsZwgSA" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">14 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=11qgsUbsoTsio8P15eyipjpYAMmYoEiX6" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">15 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=12k4bUUbnWUulhx-xb--aymL8RH4ZhXtK" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">16 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=11FIphCEG5zUa5RHd4d83Ns5U2pd7Q2zo" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">17 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=14DQ-CzFBu2SpJXDs_X2ScNcMOA1n29EN" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">18 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=12k1V-hZxDFzrf3FxPzSaBZUWJFjKSoxE" style="width: 100%" />
+            </div>
+
+            
+            <div class="mySlides">
+              <div class="numbertext">19 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=18QHjv6kQdDKS1bnjAD3C5_1R5HfYxELa" style="width: 100%" alt="Khaidari Ali" />
+            </div>
+    
+            <div class="mySlides">
+              <div class="numbertext">2 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=18Kq5xbiVxkV1l7Cv070r0hS6vmLi9nS4" style="width: 100%" />
+            </div>
+    
+            <div class="mySlides">
+              <div class="numbertext">3 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=16WOf9U_oeTW7Lgi7iKYZKAQmdlR-xyRU" style="width: 100%" />
+            </div>
+    
+            <div class="mySlides">
+              <div class="numbertext">4 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=188ShZiLz-KUC-3kiCUvmmTNVQi_K8qcl" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">5 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=18eJzS79FyTu4xpPE9SAtjVmw1dqNBzZ8" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">6 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=16GScNV2LcujiiEkGvz8PJ4793T0VMV0p" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">7 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=16jDOBfG9iuQi2Xo3rewYV2UTPH2A-nV-" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">8 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=18BKUCay_L27Ur_5FkcOkGKVj-gJImnAe" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">9 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=182tDZDLUg4qQnO2oJfoJIO0rWS5ZTL54" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">10 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=17yH6GtYkodkD30hWjEHJfE588v8koeKL" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">11 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=16EygIxCTmtfMCbFnR2d0m_bhPngZW-NL" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">12 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=16aKec1R6cxTt8yvVYibqULNST8DiyQZn" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">13 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=16ftof4nmsbO0_Dc4CT-Y6s3o_etcNGKS" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">14 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=16kAwOV4AcowWUCMOzSu31gkMHFgu2lvy" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">15 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=17WpGh16i0t0X5PyfII9A0G8Ae5_eOChz" style="width: 100%" />
+            </div>
+            <div class="mySlides">
+              <div class="numbertext">16 / 18</div>
+              <img src="https://drive.google.com/uc?export=view&id=17hEeafySZbXQhyLxBjYfo_r4BQyI9BQ9" style="width: 100%" />
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+    
+           
+            
+          </div>
+      </div> 
+
+          <div class="container">
+            <div class="row mt-4 mb-3">
+              <div class="col-lg-7 col-6 text-halalbihalal1">
+                <h2 id="Content-1" class="fs-4 fw-bold">Halal Bi Halal YPSPPTQ An-Nawawiy 1444h</h3>
+              </div>
+              <div class="col-lg-5 col-6 text-halalbihalal2">
+                <p class="fs-5 mb-0">02 Mei 2023</p>
+                <a href="https://drive.google.com/drive/folders/11VDWedljFT7fVqrpzuc9s46_fUcjB_mG?usp=sharing" target="_blank">
+                  <button class="btn"><i class="fa fa-download"></i> Download</button>
+                </a>
+              </div>
+            </div>
+            <hr>
+            <div class="halalbihalal-content">
+              <div class="row mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=11VozfYI7R6nsEgKhQoUPQJCD7JvmzsuW" style="width: 100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=144gpt6myBIDOkJRyJFubbXDZ2RrIyiPu" style="width: 100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=14NT73kENIyF5fI-bhT0LjKstrU7g4FcC" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=14g_oB7CMB45ccvo4w4oqz5htfHOGxMNZ" style="width: 100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=15B2T8yo7e7ut1KEK85H4p0mi9P3dkzon" style="width: 100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=12kPiImRRgO3SBTiZ2Y0Gq258Z-R_w-HF" style="width: 100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=15KdReJwckJ8Ip2ld8iSW8r0e6OO1tgfd" style="width: 100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" />
+                </div>
+              </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=15Z0xNzxs4DRac8sfGgh1g5FYM8j0Q6UJ" style="width: 100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=14qIU3_hx5MVk9ccwqjAaC_UurjSNRlPP" style="width: 100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=14Yx3HPUIyBZjos6tcC2IiHA1JCaq__fp" style="width: 100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=14P6piT6cnxOm-NrPaDhGZxDBqly8DrW5" style="width: 100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=13WXijjLoBPRsXYxTpMRhSMbMoSCcwlFU" style="width: 100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=13whzGdDwCdj8BmGeL-n1mpnc_fsZwgSA" style="width: 100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=11qgsUbsoTsio8P15eyipjpYAMmYoEiX6" style="width: 100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=12k4bUUbnWUulhx-xb--aymL8RH4ZhXtK" style="width: 100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=11FIphCEG5zUa5RHd4d83Ns5U2pd7Q2zo" style="width: 100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=14DQ-CzFBu2SpJXDs_X2ScNcMOA1n29EN" style="width: 100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=12k1V-hZxDFzrf3FxPzSaBZUWJFjKSoxE" style="width: 100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                
+              </div> 
+          </div>
+          
+    
+
+                </div>
+                 <div class="container">
+            <div class="row mt-4 mb-3">
+              <div class="col-lg-7 col-6 text-halalbihalal1">
+                <h2 id="Content-2" class="fs-4 fw-bold">Pembekalan Liburan Idul Fitri 1444H</h3>
+              </div>
+              <div class="col-lg-5 col-6 text-halalbihalal2">
+                <p class="fs-5 mb-0">10 April 2023</p>
+                <a href="https://drive.google.com/drive/folders/11VDWedljFT7fVqrpzuc9s46_fUcjB_mG?usp=sharing" target="_blank">
+                  <button class="btn"><i class="fa fa-download"></i> Download</button>
+                </a>
+              </div>
+            </div>
+            <hr>
+            <div class="halalbihalal-content">
+              <div class="row mb-5">
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=18QHjv6kQdDKS1bnjAD3C5_1R5HfYxELa" style="width: 100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=18Kq5xbiVxkV1l7Cv070r0hS6vmLi9nS4" style="width: 100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=16WOf9U_oeTW7Lgi7iKYZKAQmdlR-xyRU" style="width: 100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=188ShZiLz-KUC-3kiCUvmmTNVQi_K8qcl" style="width: 100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=18eJzS79FyTu4xpPE9SAtjVmw1dqNBzZ8" style="width: 100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=16GScNV2LcujiiEkGvz8PJ4793T0VMV0p" style="width: 100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-6 mb-3">
+                <div class="column">
+                  <img src="https://drive.google.com/uc?export=view&id=16jDOBfG9iuQi2Xo3rewYV2UTPH2A-nV-" style="width: 100%" onclick="openModal();currentSlide(25)" class="hover-shadow cursor" />
+                </div>
+              </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=18BKUCay_L27Ur_5FkcOkGKVj-gJImnAe" style="width: 100%" onclick="openModal();currentSlide(26)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=182tDZDLUg4qQnO2oJfoJIO0rWS5ZTL54" style="width: 100%" onclick="openModal();currentSlide(27)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=17yH6GtYkodkD30hWjEHJfE588v8koeKL" style="width: 100%" onclick="openModal();currentSlide(28)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=16EygIxCTmtfMCbFnR2d0m_bhPngZW-NL" style="width: 100%" onclick="openModal();currentSlide(29)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=16aKec1R6cxTt8yvVYibqULNST8DiyQZn" style="width: 100%" onclick="openModal();currentSlide(30)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=16ftof4nmsbO0_Dc4CT-Y6s3o_etcNGKS" style="width: 100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=16kAwOV4AcowWUCMOzSu31gkMHFgu2lvy" style="width: 100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=17WpGh16i0t0X5PyfII9A0G8Ae5_eOChz" style="width: 100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                  <div class="column">
+                    <img src="https://drive.google.com/uc?export=view&id=17hEeafySZbXQhyLxBjYfo_r4BQyI9BQ9" style="width: 100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor" />
+                  </div>
+                </div>
+                
+              </div>
+
+          
+              <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                  
+      
+          
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+          
+                  <!-- <div class="row">
+                  <div class="column">
+                    <h3 class="demo" onclick="currentSlide(1)" ></h3>
+                    <!-- <img src="../image/halaman.JPG" class="demo cursor" style="" onclick="currentSlide(1)" alt="Nature and sunrise"></img>> -->
+                  </div>
+                  
+                </div>
+            </div>   
+            
+                
+          </div>
+              </div>
+              
+            </div>
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+          <div class="mySlides">
+            <div class="numbertext">1 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=11VozfYI7R6nsEgKhQoUPQJCD7JvmzsuW" style="width: 100%" alt="Khaidari Ali" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">2 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=144gpt6myBIDOkJRyJFubbXDZ2RrIyiPu" style="width: 100%" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">3 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=14NT73kENIyF5fI-bhT0LjKstrU7g4FcC" style="width: 100%" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">4 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=14g_oB7CMB45ccvo4w4oqz5htfHOGxMNZ" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">5 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=15B2T8yo7e7ut1KEK85H4p0mi9P3dkzon" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">6 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=12kPiImRRgO3SBTiZ2Y0Gq258Z-R_w-HF" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">7 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=15KdReJwckJ8Ip2ld8iSW8r0e6OO1tgfd" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">8 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=15Z0xNzxs4DRac8sfGgh1g5FYM8j0Q6UJ" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">9 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=14qIU3_hx5MVk9ccwqjAaC_UurjSNRlPP" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">10 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=14Yx3HPUIyBZjos6tcC2IiHA1JCaq__fp" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">11 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=14P6piT6cnxOm-NrPaDhGZxDBqly8DrW5" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">12 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=13WXijjLoBPRsXYxTpMRhSMbMoSCcwlFU" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">13 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=13whzGdDwCdj8BmGeL-n1mpnc_fsZwgSA" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">14 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=11qgsUbsoTsio8P15eyipjpYAMmYoEiX6" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">15 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=12k4bUUbnWUulhx-xb--aymL8RH4ZhXtK" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">16 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=11FIphCEG5zUa5RHd4d83Ns5U2pd7Q2zo" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">17 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=14DQ-CzFBu2SpJXDs_X2ScNcMOA1n29EN" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">18 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=12k1V-hZxDFzrf3FxPzSaBZUWJFjKSoxE" style="width: 100%" />
+          </div>
+
+          
+          <div class="mySlides">
+            <div class="numbertext">19 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=18QHjv6kQdDKS1bnjAD3C5_1R5HfYxELa" style="width: 100%" alt="Khaidari Ali" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">2 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=18Kq5xbiVxkV1l7Cv070r0hS6vmLi9nS4" style="width: 100%" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">3 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=16WOf9U_oeTW7Lgi7iKYZKAQmdlR-xyRU" style="width: 100%" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">4 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=188ShZiLz-KUC-3kiCUvmmTNVQi_K8qcl" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">5 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=18eJzS79FyTu4xpPE9SAtjVmw1dqNBzZ8" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">6 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=16GScNV2LcujiiEkGvz8PJ4793T0VMV0p" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">7 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=16jDOBfG9iuQi2Xo3rewYV2UTPH2A-nV-" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">8 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=18BKUCay_L27Ur_5FkcOkGKVj-gJImnAe" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">9 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=182tDZDLUg4qQnO2oJfoJIO0rWS5ZTL54" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">10 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=17yH6GtYkodkD30hWjEHJfE588v8koeKL" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">11 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=16EygIxCTmtfMCbFnR2d0m_bhPngZW-NL" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">12 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=16aKec1R6cxTt8yvVYibqULNST8DiyQZn" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">13 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=16ftof4nmsbO0_Dc4CT-Y6s3o_etcNGKS" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">14 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=16kAwOV4AcowWUCMOzSu31gkMHFgu2lvy" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">15 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=17WpGh16i0t0X5PyfII9A0G8Ae5_eOChz" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">16 / 18</div>
+            <img src="https://drive.google.com/uc?export=view&id=17hEeafySZbXQhyLxBjYfo_r4BQyI9BQ9" style="width: 100%" />
+          </div>
+  
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+  
+         
+          
+        </div>
+    </div> 
+    </div>
+      
+    <footer class="text-center text-lg-start bg-dark text-white">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="ms-5 d-none d-lg-block fw-bold">
+            <span>Pondok Pesantren Tahfizul Quran An-Nawawiy</span>
+          </div>
+          <!-- Left -->
+  
+          <!-- Right -->
+          <div>
+            <div class="dropdown dropdown-footer rounded-3">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Hubungi Kami </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href=" https://api.whatsapp.com/send?phone=085746644232" target="_blank">Ustadz Huda</a></li>
+                <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=08563195659" target="_blank">Ustadzah Okta</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+  
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <i><img src="../image/smpq.png" width="67" class="mb-3" /></i>
+                <h6 class="text-uppercase fw-bold mb-3"><i class=""></i>SMP AL-QUR'AN AN-NAWAWIY</h6>
+                <hr />
+                <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <i><img src="../image/LOGO SMAQ.png" width="67" class="mb-3" /></i>
+                <h6 class="text-uppercase fw-bold mb-3"><i class=""></i>SMA AL-QUR'AN AN-NAWAWIY</h6>
+                <hr />
+                <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mt-4">
+                <!-- Links -->
+                <h5 class="fw-bold mb-3">Lokasi Pondok</h5>
+                <!--Google map-->
+                <div id="map-container-google-3" class="z-depth-1-half map-container-3 align-items-center">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.7604045094995!2d112.42749667425213!3d-7.4916852738837285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780d7ded31c417%3A0x82190db1566d3d13!2sSMP%20Alquran%20An-nawawiy%20Mangelo%20mojokerto!5e0!3m2!1sen!2sus!4v1683362633997!5m2!1sen!2sus"
+                    width="400"
+                    height="300"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+  
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="#">IT An - Nawawiy</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+      
+  
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+      <script type="text/javascript">
+        function getPageList(totalPages, page, maxLength) {
+          function range(start, end) {
+            return Array.from(Array(end - start + 1), (_, i) => i + start);
+          }
+  
+          var sideWidth = maxLength < 9 ? 1 : 2;
+          var leftWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+          var rightWidth = (maxLength - sideWidth * 2 - 3) >> 1;
+  
+          if (totalPages <= maxLength) {
+            return range(1, totalPages);
+          }
+  
+          if (page <= maxLength - sideWidth - 1 - rightWidth) {
+            return range(1, maxLength - sideWidth - 1).concat(0, range(totalPages - sideWidth + 1, totalPages));
+          }
+  
+          if (page >= totalPages - sideWidth - 1 - rightWidth) {
+            return range(1, sideWidth).concat(0, range(totalPages - sideWidth - 1 - rightWidth - leftWidth, totalPages));
+          }
+  
+          return range(1, sideWidth).concat(0, range(page - leftWidth, page + rightWidth), 0, range(totalPages - sideWidth + 1, totalPages));
+        }
+  
+        $(function () {
+          var numberOfItems = $(".card-content .card").length;
+          var limitPerPage = 4; //How many card items visible per a page
+          var totalPages = Math.ceil(numberOfItems / limitPerPage);
+          var paginationSize = 7; //How many page elements visible in the pagination
+          var currentPage;
+  
+          function showPage(whichPage) {
+            if (whichPage < 1 || whichPage > totalPages) return false;
+  
+            currentPage = whichPage;
+  
+            $(".card-content .card")
+              .hide()
+              .slice((currentPage - 1) * limitPerPage, currentPage * limitPerPage)
+              .show();
+  
+            $(".pagination-indi li").slice(1, -1).remove();
+  
+            getPageList(totalPages, currentPage, paginationSize).forEach((item) => {
+              $("<li>")
+                .addClass("page-item")
+                .addClass(item ? "current-page" : "dots")
+                .toggleClass("active", item === currentPage)
+                .append(
+                  $("<a>")
+                    .addClass("page-link")
+                    .attr({ href: "javascript:void(0)" })
+                    .text(item || "...")
+                )
+                .insertBefore(".next-page");
+            });
+  
+            $(".previous-page").toggleClass("disable", currentPage === 1);
+            $(".next-page").toggleClass("disable", currentPage === totalPages);
+            return true;
+          }
+  
+          $(".pagination-indi").append(
+            $("<li>")
+              .addClass("page-item")
+              .addClass("previous-page")
+              .append($("<a>").addClass("page-link").attr({ href: "javascript:void(0)" }).text("Prev")),
+            $("<li>")
+              .addClass("page-item")
+              .addClass("next-page")
+              .append($("<a>").addClass("page-link").attr({ href: "javascript:void(0)" }).text("Next"))
+          );
+  
+          $(".card-content").show();
+          showPage(1);
+  
+          $(document).on("click", ".pagination-indi li.current-page:not(.active)", function () {
+            return showPage(+$(this).text());
+          });
+  
+          $(".next-page").on("click", function () {
+            return showPage(currentPage + 1);
+          });
+  
+          $(".previous-page").on("click", function () {
+            return showPage(currentPage - 1);
+          });
+        });
+
+        //script image card//
+
+        // Get the modal
+        
+      </script>
+      <script type="text/javascript" src="./script-content.js"></script>
+    </body>
+  </html>

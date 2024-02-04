@@ -1,0 +1,310 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-ig {
+  color: white;
+}
+
+.navbar i:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.navbar-nav a:hover {
+  color: green;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar-nav a {
+  color: white;
+  cursor: pointer;
+}
+
+.navbar {
+  position: fixed;
+  transition: all 0.3s ease;
+  top: 0;
+}
+
+.navbar.scrolling-active {
+  background-color: rgb(27, 27, 27);
+  padding: 15px 0px 15px 0px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image/halaman.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo-navbar .logo-navbar-1 {
+  color: white;
+}
+.logo-navbar .logo-navbar-1:hover {
+  color: #db4437;
+}
+.logo-navbar .logo-navbar-2 {
+  color: white;
+}
+.logo-navbar .logo-navbar-2:hover {
+  color: #833ab4;
+}
+.logo-navbar .logo-navbar-3 {
+  color: white;
+}
+.logo-navbar .logo-navbar-3:hover {
+  color: #4267b2;
+}
+.logo-navbar .logo-navbar-4 {
+  color: white;
+}
+.logo-navbar .logo-navbar-4:hover {
+  color: #1da1f2;
+}
+.logo-navbar .logo-navbar-5 {
+  color: white;
+}
+.logo-navbar .logo-navbar-5:hover {
+  color: green;
+}
+
+/* agenda-pengumuman start */
+.text-pengumuman a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(241, 241, 241);
+  padding: 3px 7px;
+}
+.text-pengumuman a:hover {
+  background-color: rgb(73, 73, 73);
+  color: white;
+  transition: all 0.1s ease-in-out;
+  padding: 4px 8px;
+}
+.about .text-satu {
+  color: white;
+  font-style: italic;
+}
+.about .text-satu:hover {
+  color: green;
+  font-style: normal;
+}
+.about .text-dua {
+  color: black;
+  font-style: italic;
+}
+.about .text-dua:hover {
+  color: green;
+  font-style: normal;
+}
+/* agenda pengumuman end */
+
+/* PROFIL PENGASUH START */
+
+.text-profilpengasuh {
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  padding: 6px 17px;
+  border-radius: 12px;
+}
+
+.text-profilpengasuh:hover {
+  color: rgb(221, 221, 221);
+  background-color: rgb(1, 109, 1);
+  transition: 0.2s ease-in-out;
+}
+
+.profile-pengasuh .btn:hover {
+  background-color: black;
+}
+
+/* PROFIL PENGASUH END */
+
+/* berita start */
+.project {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+#tag-headline {
+  background-color: rgb(250, 250, 250);
+  text-align: center;
+}
+/* berita end */
+
+/* card start */
+
+.card {
+  border: none;
+}
+
+.card:hover {
+  background: rgb(36, 36, 36);
+}
+
+.card .text-read {
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover .text-read {
+  color: white;
+  transition: all ease-in-out 0.15s;
+}
+
+.card:hover .card-body {
+  color: white;
+  transition: all ease-in-out 0.15s;
+}
+
+/* card end */
+
+/* card dokumentasi start */
+.text-dokumentasi-lainnya {
+  text-align: buttom;
+  padding: 8px 16px;
+  background-color: green;
+  border-radius: 13px;
+  font-style: none;
+}
+.text-dokumentasi-lainnya:hover {
+  background-color: rgb(8, 82, 8);
+  transition: 0.2s ease-in-out;
+}
+/* card dokumentasi end */
+/* MAPS GOOGLE START */
+.map-container-3 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-3 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* MAPS GOOGLE END */
+
+/* pagination js start */
+.page-item:hover {
+  color: grey;
+  transition: all 0.1s ease-in-out;
+}
+
+.pagination-indi {
+  text-align: center;
+  margin: 30px 30px 60px;
+  user-select: none;
+}
+
+.pagination-indi li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.pagination-indi li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 45px;
+}
+
+.previous-page,
+.next-page {
+  background: rgb(36, 36, 36);
+  width: 80px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.previous-page:hover {
+  transform: translateX(-5px);
+}
+
+.next-page:hover {
+  transform: translateX(5px);
+}
+
+.current-page,
+.dots {
+  background: rgb(36, 36, 36);
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active {
+  color: white;
+  background: rgb(36, 36, 36);
+}
+
+.disable {
+  background: rgb(36, 36, 36);
+}
+
+/* pagination end */
+
+/* dokumentasi acara start */
+.text-dokumentasi {
+  font-weight: bold;
+}
+/* dokumentasi acara end */
+
+/* sosial media logo footer start */
+.dropdown.dropdown-footer {
+  background-color: green;
+  padding: 8px 15px;
+}
+
+.dropdown:hover.dropdown-footer {
+  background-color: rgb(3, 71, 3);
+  transition: 0.2s ease-in-out;
+}
+
+.logo-sosial-1 {
+  padding: 5px 7px;
+  border-radius: 25%;
+}
+.logo-sosial-1:hover {
+  background-color: #4267b2;
+}
+.logo-sosial-2 {
+  padding: 5px;
+  border-radius: 25%;
+}
+.logo-sosial-2:hover {
+  background-color: #1da1f2;
+}
+.logo-sosial-3 {
+  padding: 5px;
+  border-radius: 25%;
+}
+.logo-sosial-3:hover {
+  background-color: #db4437;
+}
+.logo-sosial-4 {
+  padding: 5px 8px;
+  border-radius: 25%;
+}
+.logo-sosial-4:hover {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.logo-sosial-5 {
+  padding: 5px 8px;
+  border-radius: 25%;
+}
+.logo-sosial-5:hover {
+  background-color: #db4437;
+}
+
+/* sosial media footer end */
